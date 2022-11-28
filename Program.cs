@@ -1,5 +1,13 @@
 ﻿using CtcontrolAPIService.Models;
 using CtcontrolAPIService.Services;
+using Microsoft.Extensions.Hosting.WindowsServices;
+using System.Diagnostics;
+
+var options = new WebApplicationOptions
+{
+    Args = args,
+    ContentRootPath = WindowsServiceHelpers.IsWindowsService() ? AppContext.BaseDirectory : default
+};
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -10,6 +18,8 @@ builder.Services.AddEndpointsApiExplorer();
 
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
+builder.Host.UseWindowsService();
 
 var app = builder.Build();
 app.UseSwaggerUI();
