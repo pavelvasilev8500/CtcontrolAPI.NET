@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32929.385
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CtcontrolAPIService", "CtcontrolAPIService.csproj", "{807883C6-6B75-41CE-9A61-10E0B5FE6A4A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{807883C6-6B75-41CE-9A61-10E0B5FE6A4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{807883C6-6B75-41CE-9A61-10E0B5FE6A4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{807883C6-6B75-41CE-9A61-10E0B5FE6A4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{807883C6-6B75-41CE-9A61-10E0B5FE6A4A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3AD139E5-CB4F-4FD3-BDD8-7395C358C7BE}
+	EndGlobalSection
+EndGlobal
